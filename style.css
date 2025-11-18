@@ -553,8 +553,11 @@ body {
   margin: 0 auto;
   padding: 4rem;
 }
+.slider-title::after {
+  background-color: #f7d74c !important;
+}
 /* ********************************** */
-/* slider Section */
+/* certified Section */
 /* ********************************** */
 .certified-section {
   height: 15rem;
@@ -595,7 +598,8 @@ strong {
   padding: 9.6rem 4.8rem 4.8rem 4.8rem;
   height: 95rem;
 }
-.clients-title {
+.clients-title,
+.process-title {
   width: 70%;
   font-size: 7rem;
   text-transform: uppercase;
@@ -697,4 +701,77 @@ strong {
 }
 .brand-value-logo:hover {
   opacity: 1;
+}
+/* ************************************ */
+/* CLIENTS SECTION */
+/* ************************************ */
+.process-section {
+  background-color: #f7d74c;
+  height: 70rem;
+  padding: 9.6rem 4.8rem 4.8rem 4.8rem;
+}
+.process-text {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.process-flex {
+  margin: 6rem auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.process-1 {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-border {
+  border-right: 2px dashed #d2b32f;
+}
+.process-img {
+  height: 8rem;
+  width: 8rem;
+  margin-bottom: 1.5rem;
+}
+.process-heading {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.process-content {
+  color: #333;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  text-align: center;
+}
+/* ************************************ */
+/* COMMITMENT SECTION */
+/* ************************************ */
+.comitment-section {
+  height: 90rem;
+  background-color: #000;
+  padding: 9.6rem 4.8rem 4.8rem 4.8rem;
+}
+.comitment-heading {
+  margin: 0 auto;
+  color: #fff !important;
+}
+.comitment-heading::after {
+  background-color: #f7d74c !important;
+}
+.comit-text {
+  color: #777;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.comit-grid {
+  margin: 5rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
