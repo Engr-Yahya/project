@@ -320,7 +320,8 @@ body {
 }
 .differ-text,
 .client-text,
-.process-text {
+.process-text,
+.faq-text {
   font-size: 1.6rem;
   color: #777;
   font-weight: 600;
@@ -710,5 +711,34 @@ strong {
   font-size: 1.3rem;
   line-height: 1.8;
   font-weight: 400;
+  color: #777;
+}
+/* ************************************ */
+/* COMMITMENT SECTION */
+/* ************************************ */
+.faq-section {
+  padding: 9.6rem 4.6rem;
+}
+.faq-accordian {
+  flex-direction: column;
+  justify-content: normal;
+}
+.faq-card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.2);
+}
+.faq-card-content {
+  display: block;
+  text-align: left;
+  padding: 2.5rem 0rem;
+  font-size: 2rem;
+  color: #777;
+  font-weight: 400;
+}
+.faq-icon {
   color: #777;
 }
