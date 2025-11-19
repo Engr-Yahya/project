@@ -14,6 +14,10 @@ body {
   margin: 0 auto;
   max-width: 120rem;
 }
+.wrapper-services {
+  margin: 0 auto;
+  max-width: 140rem;
+}
 /* ********************************* */
 /* General Styling */
 /* ********************************* */
@@ -90,7 +94,10 @@ body {
 /* ********************************* */
 .main-header {
   height: 7rem;
+  width: 100%;
   background-color: #111;
+  position: fixed;
+  z-index: 1;
 }
 .header-flex {
   display: flex;
@@ -140,7 +147,6 @@ body {
   left: 0;
   right: 0;
 }
-
 .logo-png {
   height: 60rem;
   width: 80rem;
@@ -224,3 +230,174 @@ body {
   line-height: 1.8;
   font-size: 1.3rem;
 }
+/* ********************************* */
+/* SERVICES-section */
+/* ********************************* */
+.service-section {
+  background-color: #f7d74c;
+  padding: 9.6rem 4.8rem 4.8rem 4.8rem;
+}
+.service-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.service-grid {
+  column-gap: 1rem;
+}
+.service-flex-content {
+  background-color: #fff;
+  height: 45rem;
+  max-width: fit-content;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.service-flex-content:hover {
+  background-color: #111;
+  color: #fff;
+  transition: all 0.3s;
+}
+/* GPT Content */
+/* ****************************** */
+.service-flex-content:hover {
+  background-color: #111;
+}
+.service-flex-content:hover .service-heading,
+.service-flex-content:hover .service-content {
+  color: #fff;
+}
+.service-flex-content:hover .service-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+/* ****************************** */
+.service-heading {
+  color: #111;
+  font-size: 2rem;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+.service-content {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+  color: #555;
+}
+.read-more-btn {
+  width: fit-content;
+  border: none;
+  background-color: #111;
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1.4rem 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: left;
+}
+.read-more-btn:hover {
+  box-shadow: inset 0 0 0 3px #fff;
+}
+/* ********************************** */
+/* Differentiators Section */
+/* ********************************** */
+.Differentiators-section {
+  padding: 4.8rem;
+}
+.differ-title {
+  font-size: 5.5rem;
+  letter-spacing: -0.5px;
+}
+.differ-text {
+  font-size: 1.6rem;
+  color: #777;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.image-area {
+  position: relative;
+}
+.images-box {
+  display: flex;
+  gap: 2rem;
+  margin: 5rem;
+}
+.dev-1,
+.dev-2,
+.dev-3 {
+  height: 35rem;
+  width: 45rem;
+  background-image: url(imgs/Differ-img/dev1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+.dev-2 {
+  background-image: url(imgs/Differ-img/dev2.webp);
+}
+.dev-3 {
+  background-image: url(imgs/Differ-img/dev3.webp);
+}
+.image-card-1,
+.image-card-2,
+.image-card-3 {
+  background-color: #fff;
+  color: #000;
+  height: 20rem;
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 9px;
+  position: absolute;
+  transition: all 0.5s;
+}
+.image-card-1 {
+  top: 12.5rem;
+  left: 7rem;
+}
+.image-card-2 {
+  top: 12.5rem;
+  right: 45.3rem;
+}
+.image-card-3 {
+  top: 12.5rem;
+  right: 8.5rem;
+}
+.image-card-1:hover,
+.image-card-2:hover,
+.image-card-3:hover {
+  cursor: pointer;
+  transform: translateY(-1.4rem);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+}
+.red-title {
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #e71414;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -0.05px;
+  font-weight: 600;
+  padding: 0.2rem 1rem;
+  text-align: center;
+}
+.card-heading {
+  margin-top: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: -0.05px;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+.card-text {
+  color: #555;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+/* ********************************** */
+/* Differentiators Section */
+/* ********************************** */
