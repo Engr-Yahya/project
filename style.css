@@ -26,6 +26,7 @@ body {
 }
 .grid--2cols {
   grid-template-columns: repeat(2, 1fr);
+  align-items: start;
 }
 .grid--3cols {
   grid-template-columns: repeat(3, 1fr);
@@ -58,6 +59,9 @@ body {
   background-color: #111;
   display: block;
   margin: 1.6rem auto 0 auto;
+}
+.section-title.no-after::after {
+  content: none;
 }
 .section-text {
   font-size: 2.4rem;
@@ -204,6 +208,7 @@ body {
 }
 .grid--gap {
   column-gap: 4rem;
+  row-gap: 2rem;
 }
 .content-main-heading {
   font-size: 5.2rem;
@@ -399,5 +404,154 @@ body {
   line-height: 1.5;
 }
 /* ********************************** */
-/* Differentiators Section */
+/* SUCCESS Section */
 /* ********************************** */
+.success-section {
+  padding: 4.8rem;
+  background-color: #f7d74c;
+  text-align: center;
+}
+.success-title {
+  font-size: 6.5rem;
+  letter-spacing: -0.75px;
+  padding-bottom: 0rem;
+}
+.success-text {
+  color: #111;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
+  line-height: 1.4;
+}
+.success-btn {
+  font-size: 1.8rem;
+}
+/* ********************************** */
+/* SUCCESS Section */
+/* ********************************** */
+.mob-dev-content {
+  padding: 4.8rem;
+}
+.mob-dev-heading {
+  font-size: 2rem;
+  line-height: 1.1;
+}
+.mob-dev-btn {
+  margin-top: 4rem;
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+}
+/* ********************************** */
+/* INDUSTRIES Section */
+/* ********************************** */
+.industries-section {
+  background-color: #f7d74c;
+  padding: 9.6rem;
+  text-align: center;
+}
+.industries-title {
+  padding-bottom: 0rem;
+}
+.industries-text {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 5rem;
+}
+.grid-item {
+  padding: 2rem;
+}
+.industries-sub-heading {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.industries-sub-text {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.lucide-icon {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-color: #111;
+  color: #fff;
+  padding: 1.2rem;
+  margin: 1rem 0rem;
+}
+.border-right {
+  border-right: 3px dashed #e4c63f;
+}
+.border-bottom {
+  border-bottom: 3px dashed #e4c63f;
+}
+/* ********************************** */
+/* slider Section */
+/* ********************************** */
+.slider-section {
+  background-color: #111;
+  padding: 4rem;
+}
+.slider-title {
+  color: #fff;
+  margin: 0 auto;
+  padding: 4rem;
+}
+.section-title.after::after {
+  background-color: #f7d74c;
+}
+/* ********************************** */
+/* certified Section */
+/* ********************************** */
+.certified-section {
+  background-color: #f7d74c;
+  padding: 4.8rem;
+  text-align: center;
+}
+.first-col,
+.second-col,
+.third-col,
+.forth-col,
+.fifth-col {
+  line-height: 1;
+  font-weight: 700;
+  position: relative;
+}
+span {
+  font-size: 4.8rem;
+}
+strong {
+  font-size: 3.2rem;
+}
+.stats-detail {
+  font-size: 1.4rem;
+}
+.third-col {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  line-height: 1;
+  font-weight: 700;
+}
+.third-col::after {
+  top: -3.5rem;
+  right: -3.5rem;
+}
+.border-right-after::after,
+.third-col::after {
+  content: "";
+  height: 8rem;
+  border: 2px dashed #e4c63f;
+  position: absolute;
+}
+.border-right-after::after {
+  top: -1.2rem;
+  right: -3.8rem;
+}
+/* ************************************ */
+/* CLIENTS SECTION */
+/* ************************************ */
+.clients-section {
+  padding: 9.6rem 4.8rem 4.8rem 4.8rem;
+}
