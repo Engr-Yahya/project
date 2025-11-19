@@ -19,9 +19,8 @@ body {
 /* ********************************* */
 .grid {
   display: grid;
-  padding: 2rem;
 }
-.grid--2clos {
+.grid--2cols {
   grid-template-columns: repeat(2, 1fr);
 }
 .grid--3cols {
@@ -29,6 +28,13 @@ body {
 }
 .grid--4cols {
   grid-template-columns: repeat(4, 1fr);
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4rem;
 }
 .section-title {
   font-weight: 800;
@@ -144,7 +150,7 @@ body {
   z-index: -1;
 }
 /* ********************************* */
-/* Hero-section */
+/* LOGO-section */
 /* ********************************* */
 .logo-container {
   position: relative;
@@ -178,4 +184,43 @@ body {
 .logo-title::after {
   top: 0.75rem;
   right: 1rem;
+}
+/* ********************************* */
+/* CONTENT-section */
+/* ********************************* */
+.content-section {
+  padding: 9.6rem;
+}
+.content-grid {
+  grid-template-columns: 2fr 3fr;
+  gap: 6rem;
+  padding: 0rem 4rem;
+}
+.grid--gap {
+  column-gap: 4rem;
+}
+.content-main-heading {
+  font-size: 5.2rem;
+  margin-bottom: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+.content-sub-heading {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+.content-text-main {
+  font-size: 1.6rem !important;
+  margin-bottom: 4rem;
+}
+.content-text {
+  color: #777;
+  line-height: 1.8;
+  font-size: 1.3rem;
 }
