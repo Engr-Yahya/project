@@ -844,5 +844,139 @@ strong {
   color: #777;
 }
 /* ************************************ */
-/* FAQ'S SECTION */
+/* Award SECTION */
 /* ************************************ */
+.award-section {
+  background-color: #f7d74c;
+  height: 40rem;
+  padding: 4.8rem;
+}
+.award-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0rem auto;
+  padding: 4rem;
+}
+.flex-sec {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.award {
+  height: 12rem;
+  width: 12rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.award-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.award-detail {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* ************************************ */
+/* Blog SECTION */
+/* ************************************ */
+.blog-section {
+  padding: 9.6rem 4.8rem 4.8rem 4.8rem;
+  height: 90rem;
+  background-color: #000;
+}
+.blog-title {
+  margin: 0 auto;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+.blog-text {
+  color: #777;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.blog-flex {
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+}
+.blog-flex-sec {
+  padding: 5rem 5rem 7rem;
+}
+.blog-flex-sec:hover {
+  cursor: pointer;
+}
+.flex-right-border {
+  border-right: 2px solid #333;
+}
+.blog-heading {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.blog-heading::after {
+  display: block;
+  content: "";
+  background-color: #000;
+  height: 0.3rem;
+  width: 7rem;
+  margin-top: 1rem;
+}
+.blog-detail {
+  color: #777;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+.read-more {
+  background-color: #222;
+  color: #fff;
+  margin: 2rem 0rem;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.read-more:hover {
+  color: #222;
+  background: #fff;
+  font-weight: 600;
+  box-shadow: 0px 0px 0px 3px #222;
+  cursor: pointer;
+}
+/* ************************************ */
+/* Blog SECTION */
+/* ************************************ */
+.footer-1 {
+  padding: 10rem 0 5rem;
+  height: 50rem;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-grow: 1;
+  padding: 1.5rem;
+}
+.footer-list {
+  list-style: none;
+  color: #758495;
+  font-size: 1.5rem;
+}
+li a {
+  text-decoration: none;
+  color: #758495;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.footer-detail {
+  color: #758495;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
