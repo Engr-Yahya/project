@@ -939,14 +939,6 @@ strong {
 /* ************************************ */
 .footer-1 {
   padding: 10rem 0 5rem;
-  height: 50rem;
-}
-.footer-flex {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  flex-grow: 1;
-  padding: 1.5rem;
 }
 .footer-list {
   list-style: none;

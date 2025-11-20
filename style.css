@@ -16,7 +16,7 @@ body {
 }
 .wrapper-services {
   margin: 0 auto;
-  max-width: 140rem;
+  max-width: 90%;
 }
 /* ********************************* */
 /* General Styling */
@@ -44,12 +44,11 @@ body {
 .section-title {
   font-weight: 800;
   text-transform: uppercase;
-  font-size: 9.5rem;
+  font-size: 7rem;
   text-align: center;
   color: #111;
   line-height: 8.8rem;
-  letter-spacing: -6px;
-  /* margin-top: 2rem; */
+  letter-spacing: -3px;
   padding: 4rem 0rem 2rem;
 }
 .section-title::after {
@@ -143,6 +142,10 @@ body {
 .hero-section {
   height: 100vh;
   background-color: #f7d74c;
+}
+.hero-title,
+.service-title {
+  font-size: 9.5rem;
 }
 .hero-content {
   position: absolute;
@@ -243,7 +246,8 @@ body {
   padding: 9.6rem 4.8rem 4.8rem 4.8rem;
 }
 .service-text {
-  font-size: 1.6rem;
+  margin-bottom: 6rem;
+  font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -321,7 +325,8 @@ body {
 .differ-text,
 .client-text,
 .process-text,
-.faq-text {
+.faq-text,
+.blog-text {
   font-size: 1.6rem;
   color: #777;
   font-weight: 600;
@@ -498,7 +503,8 @@ body {
   padding: 4rem;
 }
 .slider-title,
-.comitment-heading {
+.comitment-heading,
+.blog-title {
   color: #fff;
   margin: 0 auto;
   padding: 4rem;
@@ -771,3 +777,84 @@ strong {
 /* ************************************ */
 /* Blog SECTION */
 /* ************************************ */
+.blog-section {
+  padding: 9.6rem 4.8rem 4.8rem;
+  background-color: #000;
+}
+.blog-title {
+  padding-bottom: 0rem;
+}
+.blog-text {
+  margin-bottom: 4rem;
+}
+.blog-flex {
+  padding-top: 0rem;
+  gap: 2rem;
+}
+.blog-flex-sec {
+  background-color: #fff;
+  padding: 5rem 5rem 7rem;
+}
+.blog-flex-sec:hover {
+  cursor: pointer;
+}
+.flex-right-border {
+  border-right: 2px solid #333;
+}
+.blog-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  letter-spacing: -0.5px;
+}
+.blog-heading::after {
+  display: block;
+  content: "";
+  background-color: #000;
+  height: 0.3rem;
+  width: 7rem;
+  margin-top: 1rem;
+}
+.blog-detail {
+  color: #777;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 6rem;
+}
+.blog-btn {
+  text-transform: uppercase;
+}
+.blog-btn:hover {
+  color: #222;
+  background: #fff;
+  font-weight: 600;
+  box-shadow: 0px 0px 0px 3px #222;
+  cursor: pointer;
+}
+/* ************************************ */
+/* Blog SECTION */
+/* ************************************ */
+.footer-1 {
+  padding: 10rem 0 5rem;
+}
+.footer-list {
+  list-style: none;
+  color: #758495;
+  font-size: 1.5rem;
+}
+li a {
+  text-decoration: none;
+  color: #758495;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.footer-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.footer-detail {
+  color: #758495;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
