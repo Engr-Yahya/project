@@ -742,3 +742,32 @@ strong {
 .faq-icon {
   color: #777;
 }
+/* ************************************ */
+/* AWARD SECTION */
+/* ************************************ */
+.award-section {
+  padding: 9.6rem 0rem;
+  background-color: #f7d74c;
+}
+.flex-sec {
+  flex-direction: column;
+  text-align: center;
+}
+.award {
+  height: 12rem;
+  width: 12rem;
+  align-self: center;
+  margin-bottom: 1rem;
+}
+.award-heading {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.award-detail {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* ************************************ */
+/* Blog SECTION */
+/* ************************************ */
