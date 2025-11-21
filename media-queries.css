@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 1200px) {
+  .header-nav {
+    gap: 2rem;
+  }
+  .hero-title {
+    font-size: 60px;
+    line-height: 60px;
+    padding-bottom: 10px;
+    letter-spacing: -2px;
+    padding: 4.7rem 0rem 2rem;
+  }
+  .hero-text {
+    padding: 0rem 14rem;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .grid-gap {
+    column-gap: 2rem;
+  }
+  .logo-png {
+    max-width: 662px;
+    bottom: -21rem;
+    right: -3rem;
+    opacity: 50%;
+    overflow: hidden;
+  }
+  .content-section {
+    padding: 9.6rem 0rem;
+  }
+  .service-section {
+    padding: 9.6rem 0rem;
+  }
+  .service-title {
+    font-size: 7.6rem;
+    letter-spacing: -4px;
+  }
+  .service-flex-content {
+    padding: 4rem 1.6rem;
+  }
+  .service-content {
+    font-size: 1.5rem;
+  }
+
+  .mob-dev-content {
+    padding: 9.6rem 0rem;
+  }
+  .industries-section {
+    padding: 9.6rem 0rem;
+  }
+  .process-section {
+    padding: 4.8rem 0rem;
+  }
+  .brand-value-flex {
+    justify-content: center;
+  }
+  .margin-left-right {
+    margin: 0rem 1rem;
+  }
+  .comitment-section {
+    padding: 4.8rem 2rem;
+  }
+  .faq-section {
+    padding: 9.6rem 1rem;
+  }
+  .blog-section {
+    padding: 9.6rem 3rem;
+  }
+  .footer-1 {
+    margin-right: 3rem;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .grid-gap {
+    column-gap: 0rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo-png {
+    max-width: 662px;
+    bottom: -32rem;
+    right: -3rem;
+    opacity: 50%;
+    overflow: hidden;
+  }
+  .logos {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .logo {
+    margin: 0rem 2rem 1rem;
+  }
+  .grid--2cols {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+  .service-title {
+    font-size: 5rem;
+    letter-spacing: -2px;
+    line-height: 1.2;
+  }
+  .service-grid {
+    gap: 2rem;
+  }
+  .content-main-heading {
+    font-size: 3.6rem;
+  }
+  .content-sub-heading {
+    font-size: 1.6rem;
+  }
+  .content-grid {
+    grid-template-columns: 1.5fr 2fr;
+    gap: 0rem;
+  }
+  .content-secondary-info {
+    padding: 0rem 1rem;
+  }
+  .footer-1 {
+    margin-right: 3rem;
+  }
+  .footer-flex {
+    gap: 5rem;
+  }
+}
+@media (max-width: 992px) {
+  .content-section {
+    padding: 4.8rem 0rem;
+  }
+  .content-sub-heading {
+    font-size: 1.5rem;
+  }
+  .differ-text {
+    padding: 0rem 8rem;
+  }
+  .success-text {
+    font-size: 1.8rem;
+  }
+  .mob-dev-content {
+    padding: 9.6rem 0rem;
+  }
+  .content-main {
+    padding: 0rem 1rem;
+  }
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+}
