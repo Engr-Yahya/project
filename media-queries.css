@@ -58,6 +58,21 @@ body {
   .industries-section {
     padding: 9.6rem 0rem;
   }
+  .certified-section {
+    padding: 3.6rem 2rem;
+  }
+  span {
+    font-size: 3.2rem;
+  }
+  .stats-detail {
+    font-size: 1.2rem;
+  }
+  .third-col {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    line-height: 1;
+    font-weight: 700;
+  }
   .process-section {
     padding: 4.8rem 0rem;
   }
@@ -113,7 +128,7 @@ body {
     gap: 2rem;
   }
   .content-main-heading {
-    font-size: 3.6rem;
+    font-size: 3.1rem;
   }
   .content-sub-heading {
     font-size: 1.6rem;
@@ -122,8 +137,26 @@ body {
     grid-template-columns: 1.5fr 2fr;
     gap: 0rem;
   }
+  .industries-section {
+    padding: 9.6rem 0rem;
+  }
   .content-secondary-info {
     padding: 0rem 1rem;
+  }
+  .certified-section {
+    padding: 4.8rem 0rem;
+  }
+  span {
+    font-size: 2.8rem;
+  }
+  .stats-detail {
+    font-size: 1.1rem;
+  }
+  .third-col {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1;
+    font-weight: 700;
   }
   .footer-1 {
     margin-right: 3rem;
@@ -135,6 +168,9 @@ body {
 @media (max-width: 992px) {
   .content-section {
     padding: 4.8rem 0rem;
+  }
+  .industries-section {
+    padding: 9.6rem 0rem;
   }
   .content-sub-heading {
     font-size: 1.5rem;
@@ -148,10 +184,72 @@ body {
   .mob-dev-content {
     padding: 9.6rem 0rem;
   }
-  .content-main {
-    padding: 0rem 1rem;
-  }
   .footer-flex {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 980px) {
+  .header-flex {
+    position: relative;
+  }
+  .header-nav {
+    padding: 2.5rem 0rem;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    background: #000;
+  }
+  .hero-content {
+    transform: translate(0, -38%);
+  }
+  .hero-title {
+    font-size: 5rem;
+  }
+  .hero-text {
+    font-size: 2rem;
+    padding: 0rem 10rem;
+  }
+  .color-div {
+    height: 3rem;
+    width: 100%;
+    background-color: #111;
+    opacity: 0.4;
+  }
+  .card-heading {
+    font-size: 1.6rem;
+  }
+  .card-text {
+    font-size: 1.4rem;
+  }
+  .clients-section {
+    padding: 9.6rem 0 4.8rem;
+  }
+  .client-grid {
+    grid-template-columns: 1fr;
+  }
+  .client-info {
+    padding: 2rem 0rem;
+  }
+  .client-2::before {
+    top: 0rem;
+    left: 0rem;
+  }
+  .client-2::after {
+    top: 0rem;
+    right: 0rem;
+  }
+  .brand-value-flex {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .brand-value-logo {
+    margin: 0rem 3rem 2rem;
+  }
+  .process-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
