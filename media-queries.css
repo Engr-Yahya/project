@@ -94,6 +94,9 @@ body {
   .footer-1 {
     margin-right: 3rem;
   }
+  .footer-flex {
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 900px) and (max-width: 1024px) {
   .grid-gap {
@@ -250,7 +253,8 @@ body {
     margin: 0rem 3rem 2rem;
   }
   .process-text,
-  .faq-text {
+  .faq-text,
+  .blog-text {
     padding: 0rem 0rem 5rem;
   }
   .process-grid {
@@ -277,5 +281,25 @@ body {
   }
   .faq-card-content {
     font-size: 1.7rem;
+  }
+  .award {
+    max-width: 8.8rem;
+  }
+  .award-heading {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+  }
+  .award-detail {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .padding-top {
+    padding: 0rem;
+  }
+  .blog-section {
+    padding: 9.6rem 2rem;
+  }
+  .blog-flex-sec {
+    padding: 2rem 2.5rem;
   }
 }

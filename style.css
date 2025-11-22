@@ -334,11 +334,12 @@ body {
   margin-bottom: 2rem;
 }
 .service-content {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   line-height: 1.4;
   color: #555;
 }
 .read-more-btn {
+  font-family: "Poppins", sans-serif;
   width: fit-content;
   border: none;
   background-color: #111;
@@ -789,8 +790,7 @@ span {
   text-align: center;
 }
 .award {
-  height: 12rem;
-  width: 12rem;
+  max-width: 12rem;
   align-self: center;
   margin-bottom: 1rem;
 }
@@ -817,12 +817,15 @@ span {
   margin-bottom: 4rem;
 }
 .blog-flex {
-  padding-top: 0rem;
-  gap: 2rem;
+  align-items: stretch;
 }
 .blog-flex-sec {
+  flex: 1;
   background-color: #fff;
   padding: 5rem 5rem 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .blog-flex-sec:hover {
   cursor: pointer;
@@ -845,13 +848,16 @@ span {
   margin-top: 1rem;
 }
 .blog-detail {
+  font-family: "Lato", sans-serif !important;
   color: #777;
   font-size: 1.4rem;
   line-height: 1.8;
-  margin-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 .blog-btn {
+  font-size: 1.4rem;
   text-transform: uppercase;
+  padding: 1.2rem 4rem;
 }
 .blog-btn:hover {
   color: #222;
@@ -873,8 +879,7 @@ span {
 }
 .footer-flex {
   align-items: start;
-  justify-content: normal;
-  gap: 6rem;
+  justify-content: space-evenly;
 }
 li a {
   text-decoration: none;
@@ -894,7 +899,7 @@ li a {
 }
 .footer-number {
   font-weight: 800;
-  font-size: 3.2rem;
+  font-size: 3.7rem;
   color: #111;
 }
 .footer-text {
