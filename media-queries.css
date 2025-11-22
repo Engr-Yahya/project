@@ -249,7 +249,17 @@ body {
   .brand-value-logo {
     margin: 0rem 3rem 2rem;
   }
+  .process-text {
+    padding: 0rem 0rem 5rem;
+  }
   .process-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .process-2.right-border {
+    border-right: none;
+  }
+  .process-3,
+  .process-4 {
+    border-top: 2px dashed #d2b32f;
   }
 }
