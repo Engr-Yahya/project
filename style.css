@@ -712,7 +712,7 @@ span {
 /* COMMITMENT SECTION */
 /* ************************************ */
 .comitment-section {
-  padding: 9.6rem 4.8rem;
+  padding: 9.6rem;
   background-color: #111;
   color: #fff;
 }
@@ -742,7 +742,7 @@ span {
 .comit-parah {
   font-size: 1.3rem;
   line-height: 1.8;
-  font-weight: 400;
+  font-weight: 500;
   color: #777;
 }
 /* ************************************ */
