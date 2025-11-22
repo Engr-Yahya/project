@@ -269,4 +269,13 @@ body {
   .comit-sec {
     padding: 3rem 1.5rem;
   }
+  .faq-section {
+    padding: 9.6rem 2rem;
+  }
+  .faq-title {
+    padding-top: 0rem;
+  }
+  .faq-card-content {
+    font-size: 1.7rem;
+  }
 }
