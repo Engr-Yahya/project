@@ -249,7 +249,8 @@ body {
   .brand-value-logo {
     margin: 0rem 3rem 2rem;
   }
-  .process-text {
+  .process-text,
+  .faq-text {
     padding: 0rem 0rem 5rem;
   }
   .process-grid {
