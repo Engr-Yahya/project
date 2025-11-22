@@ -682,7 +682,7 @@ span {
 .process-text {
   color: #111;
 }
-.process-1 {
+.process {
   padding: 2rem;
   display: flex;
   flex-direction: column;
