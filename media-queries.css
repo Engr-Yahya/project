@@ -304,9 +304,42 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .section-title {
+    line-height: 4.4rem;
+  }
+  .section-title::after {
+    margin: 1rem auto 0 auto;
+  }
+  .hero-section {
+    max-height: initial !important;
+  }
+  .hero-content {
+    top: 48.5%;
+  }
   .hero-title {
     font-size: 4rem;
     line-height: 4rem;
+  }
+  .hero-text {
+    font-size: 1.8rem;
+    padding: 0rem 5rem;
+  }
+  .hero-button {
+    font-size: 1.8rem;
+    padding: 1.5rem 4rem;
+  }
+  .logo-png {
+    max-width: 740px;
+    bottom: -32rem;
+    right: -6rem;
+    overflow: hidden;
+  }
+  .logos {
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .logo {
+    margin: 0rem 2rem 1rem;
   }
   .grid--1col {
     grid-template-columns: 1fr;
@@ -317,5 +350,101 @@ body {
   }
   .content-text {
     font-size: 1.6rem;
+  }
+  .service-section {
+    padding: 0rem 0rem 5rem;
+  }
+  .service-title {
+    font-size: 3.4rem;
+    letter-spacing: -2px;
+  }
+  .service-text {
+    font-size: 1.7rem;
+    padding: 0rem;
+  }
+  .differ-title {
+    font-size: 3.5rem;
+  }
+  .differ-text {
+    padding: 0rem;
+  }
+  .images-box {
+    flex-direction: column;
+  }
+  .dev-1,
+  .dev-2,
+  .dev-3 {
+    height: 50vh;
+  }
+  .success-title {
+    font-size: 3.8rem;
+    letter-spacing: -2px;
+  }
+  .success-text {
+    font-size: 1.4rem;
+    padding: 1rem 0rem 0rem;
+  }
+  .industries-section {
+    padding: 6rem 0rem 2rem;
+  }
+  .industries-title {
+    font-size: 6rem;
+  }
+  .grid--1col {
+    grid-template-columns: 1fr;
+  }
+  .certified-section {
+    padding: 0rem;
+  }
+  .certified-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "first second"
+      "third third"
+      "forth fifth";
+    padding: 0rem;
+  }
+  .first-col,
+  .second-col,
+  .third-col,
+  .forth-col,
+  .fifth-col {
+    padding: 3rem 0rem;
+  }
+  .first-col {
+    grid-area: first;
+    border-right: 2px dashed #d2b32f;
+    border-bottom: 2px dashed #d2b32f;
+  }
+  .second-col {
+    grid-area: second;
+    border-bottom: 2px dashed #d2b32f;
+  }
+  .third-col {
+    font-size: 1.6rem;
+    grid-area: third;
+    margin-top: 0rem;
+  }
+  .forth-col {
+    grid-area: forth;
+    border-right: 2px dashed #d2b32f;
+    border-top: 2px dashed #d2b32f;
+  }
+  .fifth-col {
+    grid-area: fifth;
+    border-top: 2px dashed #d2b32f;
+  }
+  span {
+    font-size: 3rem;
+  }
+  .stats-detail {
+    font-size: 1.2rem;
+  }
+  .clients-section {
+    padding: 6rem 0rem 1rem;
+  }
+  .clients-title {
+    font-size: 5rem;
   }
 }

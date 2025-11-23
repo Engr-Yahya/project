@@ -135,6 +135,11 @@ body {
 }
 .header-nav {
   display: flex;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
   gap: 2.4rem;
 }
 .header-nav-item:link,
@@ -571,7 +576,7 @@ span {
   line-height: 1;
   font-weight: 700;
 }
-.third-col::after {
+/* .third-col::after {
   top: -3.5rem;
   right: -3.5rem;
 }
@@ -585,7 +590,7 @@ span {
 .border-right-after::after {
   top: -1.2rem;
   right: -3.8rem;
-}
+} */
 /* ************************************ */
 /* CLIENTS SECTION */
 /* ************************************ */
