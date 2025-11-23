@@ -209,7 +209,12 @@ body {
   background-color: #111;
   padding: 5.5rem 2rem;
 }
-.logo-title {
+.logo-heading {
+  position: relative;
+  width: 100%;
+}
+.logo-heading::after {
+  content: "Our valued brands & agencies";
   background-color: #111;
   color: #e4c63f;
   padding: 0rem 4rem;
@@ -217,6 +222,12 @@ body {
   font-size: 1.4rem;
   font-weight: 700;
   text-align: center;
+  position: absolute;
+  top: 0;
+  right: 42%;
+  z-index: 5;
+}
+.logo-title {
   position: relative;
 }
 .logo-title::before {
@@ -607,24 +618,12 @@ span {
 .client-2,
 .client-3 {
   text-align: center;
+  padding: 2rem 0rem;
 }
 .client-2 {
-  position: relative;
-}
-.client-2::before,
-.client-2::after {
-  content: "";
-  height: 40rem;
-  position: absolute;
-  border: 1.75px dashed #5555555b;
-}
-.client-2::before {
-  top: 0rem;
-  left: -0.7rem;
-}
-.client-2::after {
-  top: 0rem;
-  right: -0.7rem;
+  border-left: 2px dashed #d8d6d6;
+  border-right: 2px dashed #d8d6d6;
+  padding: 2rem 0rem;
 }
 .client-img {
   height: 8rem;

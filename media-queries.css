@@ -304,6 +304,33 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .grid-nav-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "corporate service portfolio"
+      "solution solution solution"
+      "blog empty contact";
+  }
+  .nav-item-1 {
+    grid-area: corporate;
+  }
+  .nav-item-2 {
+    grid-area: service;
+  }
+  .nav-item-3 {
+    grid-area: portfolio;
+  }
+  .nav-item-4 {
+    grid-area: solution;
+  }
+  .nav-item-5 {
+    grid-area: blog;
+  }
+  .nav-item-6 {
+    grid-area: contact;
+  }
+
   .section-title {
     line-height: 4.4rem;
   }
@@ -444,7 +471,60 @@ body {
   .clients-section {
     padding: 6rem 0rem 1rem;
   }
-  .clients-title {
+  .clients-title,
+  .process-title,
+  .faq-title,
+  .blog-title {
     font-size: 5rem;
+  }
+  .client-text {
+    padding: 3rem 0rem;
+  }
+  .client-info {
+    padding: 2rem 3rem;
+  }
+  .client-2 {
+    border-left: none;
+    border-right: none;
+    border-top: 2px dashed #d8d6d6;
+    border-bottom: 2px dashed #d8d6d6;
+    padding: 2rem 0rem;
+  }
+  .brand-value {
+    display: none;
+  }
+  .process-section {
+    padding: 6rem 0rem 1rem;
+  }
+  .process-text,
+  .blog-text {
+    font-size: 1.5rem;
+  }
+  .comitment-heading {
+    font-size: 3rem;
+    letter-spacing: -1px;
+  }
+  .comit-text {
+    font-size: 1.6rem;
+  }
+  .grid--1col {
+    grid-template-columns: 1fr;
+  }
+  .faq-section {
+    padding: 6rem 1rem 5rem;
+  }
+  .faq-text {
+    font-size: 1.4rem;
+  }
+  .faq-card-content {
+    font-size: 1.6rem;
+  }
+  .faq-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  .blog-flex {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
