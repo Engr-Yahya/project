@@ -210,7 +210,6 @@ body {
   padding: 5.5rem 2rem;
 }
 .logo-title {
-  background-color: #111;
   color: #e4c63f;
   padding: 0rem 4rem;
   text-transform: uppercase;
@@ -291,7 +290,7 @@ body {
   padding: 9.6rem 0rem 4.8rem;
 }
 .service-title {
-  margin: 0rem 16rem;
+  padding: 0rem 10rem;
 }
 .service-text {
   margin-bottom: 6rem;
@@ -530,7 +529,7 @@ body {
 .border-right {
   border-right: 3px dashed #e4c63f;
 }
-.border-bottom {
+.border-bottom-indus {
   border-bottom: 3px dashed #e4c63f;
 }
 /* ********************************** */
@@ -867,7 +866,7 @@ span {
 /* ************************************ */
 .footer-1 {
   padding: 6rem 0 2rem;
-  margin-left: 3rem;
+  margin: 0rem 1rem;
 }
 .footer-list {
   list-style: none;
@@ -875,7 +874,6 @@ span {
 }
 .footer-flex {
   align-items: start;
-  justify-content: space-evenly;
 }
 li a {
   text-decoration: none;

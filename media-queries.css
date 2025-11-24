@@ -221,6 +221,10 @@ body {
     background-color: #111;
     opacity: 0.4;
   }
+  .service-title {
+    padding: 0rem 6rem;
+    line-height: 1;
+  }
   .card-heading {
     font-size: 1.6rem;
   }
@@ -303,12 +307,17 @@ body {
     padding: 2rem 2.5rem;
   }
 }
+@media screen and (max-width: 767px) {
+  .hero-section {
+    height: auto;
+    min-height: 123vh;
+  }
+}
 @media (max-width: 767px) {
   .header-nav {
     top: 85%;
-    padding: 0rem;
   }
-  .grid-nav-list {
+  /* .grid-nav-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
@@ -333,8 +342,10 @@ body {
   }
   .nav-item-6 {
     grid-area: contact;
+  } */
+  .header-nav.nav-item-4 {
+    display: block !important;
   }
-
   .section-title {
     line-height: 4.4rem;
   }
@@ -345,7 +356,7 @@ body {
     max-height: initial !important;
   }
   .hero-content {
-    top: 48.5%;
+    top: 46.5%;
   }
   .hero-title {
     font-size: 4rem;
@@ -361,8 +372,8 @@ body {
   }
   .logo-png {
     max-width: 740px;
-    bottom: -32rem;
-    right: -6rem;
+    bottom: -21rem;
+    right: -3.5rem;
     overflow: hidden;
   }
   .logos {
@@ -383,13 +394,15 @@ body {
     font-size: 1.6rem;
   }
   .service-section {
-    padding: 0rem 0rem 5rem;
+    padding: 4rem 0rem 5rem;
   }
   .service-title {
     font-size: 3.4rem;
     letter-spacing: -2px;
+    padding: 0rem;
   }
   .service-text {
+    line-height: 1.2;
     font-size: 1.7rem;
     padding: 0rem;
   }
@@ -407,6 +420,11 @@ body {
   .dev-3 {
     height: 50vh;
   }
+  .image-card-1,
+  .image-card-2,
+  .image-card-3 {
+    right: 38px;
+  }
   .success-title {
     font-size: 3.8rem;
     letter-spacing: -2px;
@@ -420,6 +438,9 @@ body {
   }
   .industries-title {
     font-size: 6rem;
+  }
+  .border-bottom {
+    border-bottom: 3px dashed #e4c63f;
   }
   .grid--1col {
     grid-template-columns: 1fr;
@@ -532,7 +553,51 @@ body {
     gap: 2rem;
   }
 }
-@media (max-width: 576px) {
-  .header-nav {
+@media screen and (max-width: 576px) {
+  .hero-section {
+    height: auto;
+    min-height: 123vh;
   }
+}
+@media (max-width: 576px) {
+  .hero-content {
+    /* top: 48.5%; */
+  }
+  .logo-png {
+    max-width: 550px;
+    bottom: -15rem;
+    right: -3rem;
+  }
+  .differ-text {
+    font-size: 1.4rem;
+  }
+  .image-card-1,
+  .image-card-2,
+  .image-card-3 {
+    right: 28px;
+  }
+  .success-section {
+    padding: 4.8rem 0rem;
+  }
+  .clients-section {
+    padding: 6rem 1rem 1rem;
+  }
+  .process-section {
+    padding: 6rem 1rem 1rem;
+  }
+  .faq-card-content {
+    padding: 1rem 0rem;
+  }
+  .footer-content {
+    padding: 2rem 0rem;
+  }
+  .footer-2-flex {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .bg-image {
+    justify-self: end;
+  }
+}
+@media (max-width: 567px) {
 }
