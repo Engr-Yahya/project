@@ -304,6 +304,10 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .header-nav {
+    top: 85%;
+    padding: 0rem;
+  }
   .grid-nav-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -526,5 +530,9 @@ body {
   .blog-flex {
     flex-direction: column;
     gap: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  .header-nav {
   }
 }
